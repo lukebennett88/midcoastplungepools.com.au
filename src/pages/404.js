@@ -7,8 +7,8 @@ import SEO from '../components/seo';
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <div className="flex flex-1 h-full items-center justify-center text-center w-full">
-      <Link className="no-underline" to="/">
+    <div className="flex flex-1 items-center justify-center text-center w-full">
+      <Link className="flex flex-col no-underline" to="/">
         <h1 className="font-condensed text-grey-darkest text-5xl uppercase">
           404: Page not found
         </h1>
