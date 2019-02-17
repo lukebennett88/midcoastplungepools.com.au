@@ -9,9 +9,5 @@ html {
 
 a {
   @apply inline-flex;
-  @apply text-teal-darkest;
-}
-
-a:hover {
-  @apply bg-teal-lightest;
+  @apply text-teal-darker;
 }
