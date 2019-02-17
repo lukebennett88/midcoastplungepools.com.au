@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Footer = ({ siteTitle }) => (
-  <footer className="flex items-baseline justify-center leading-normal p-4">
+  <footer className="flex items-baseline justify-center leading-normal p-4 text-grey-dark">
     <p>
       <span>
         © {new Date().getFullYear()} {siteTitle}
@@ -10,7 +10,7 @@ const Footer = ({ siteTitle }) => (
       <span className="mx-2">&bull;</span>
       <span>Website by</span>
       <a
-        className="hover:bg-teal-lighte inline-flex no-underline px-1 text-grey-darkest hover:text-teal-darker"
+        className="inline-flex px-1 text-grey-darkest underline"
         href="https://lukebennett.com.au"
       >
         Luke Bennett
