@@ -3,44 +3,45 @@ import React from 'react';
 const ContactForm = () => {
   return (
     <form
-      className="max-w-xs w-full"
       action="/contact/success/"
-      name="contact"
-      method="post"
-      data-netlify="true"
+      className="max-w-xs w-full"
       data-netlify-honeypot="bot-field"
+      data-netlify="true"
+      method="post"
+      name="contact"
     >
       <input type="hidden" name="bot-field" />
       <div className="mb-4">
-        <label className="block text-sm font-bold mb-2" htmlFor="name">
+        <label className="flex font-bold mb-2 text-sm" htmlFor="name">
           Name
         </label>
         <input
           className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
-          type="text"
-          name="name"
           id="name"
+          name="name"
+          required
+          type="text"
         />
       </div>
       <div className="mb-4">
-        <label className="block text-sm font-bold mb-2" htmlFor="email">
+        <label className="flex font-bold mb-2 text-sm" htmlFor="email">
           Email
         </label>
         <input
           className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
-          type="text"
-          name="email"
           id="email"
+          name="email"
+          type="text"
         />
       </div>
       <div className="mb-4">
-        <label className="block text-sm font-bold mb-2" htmlFor="message">
+        <label className="flex font-bold mb-2 text-sm" htmlFor="message">
           Message
         </label>
         <textarea
           className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
-          name="message"
           id="message"
+          name="message"
           rows="6"
         />
       </div>
