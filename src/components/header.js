@@ -39,7 +39,7 @@ const Header = ({ siteTitle }) => (
       </div>
       <nav
         id="nav"
-        className="hidden md:flex md:flex-1 md:items-center md:justify-end w-full md:w-auto"
+        className="border-b md:border-transparent hidden md:flex md:flex-1 md:items-center md:justify-end w-full md:w-auto"
       >
         <NavLink link="/" title="Home" />
         <NavLink link="/style-sample/" title="Style&nbsp;Sample" />
@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => (
 const NavLink = props => (
   <Link
     to={props.link}
-    className="block md:inline-flex border-t md:border-0 font-bold no-underline px-6 py-4 uppercase text-grey-darkest"
+    className="block md:inline-flex border-t md:border-0 font-bold no-underline px-6 py-4 text-grey-darkest tracking-wide text-sm uppercase"
   >
     {props.title}
   </Link>
