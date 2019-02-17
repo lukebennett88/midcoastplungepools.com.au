@@ -1,17 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Footer = () => (
-  <footer className="p-4">
-    <p className="flex font-bold items-center justify-center max-w-2xl mx-auto w-full">
-      <span className="mr-1">Website by</span>
+const Footer = ({ siteTitle }) => (
+  <footer className="flex items-baseline justify-center leading-normal p-4">
+    <p>
+      <span>
+        © {new Date().getFullYear()} {siteTitle}
+      </span>
+      <span className="mx-2">&bull;</span>
+      <span>Website by</span>
       <a
-        className="no-underline text-teal-dark"
+        className="hover:bg-teal-lighte inline-flex no-underline px-1 text-grey-darkest hover:text-teal-darker"
         href="https://lukebennett.com.au"
       >
         Luke Bennett
       </a>
     </p>
-
     <a
       href="#top"
       className="bg-teal-lighter hidden md:flex fixed h-10 items-end justify-center leading-none mb-16 mr-16 no-underline pin-b pin-r rounded-full shadow-lg w-10"
@@ -30,5 +34,9 @@ const Footer = () => (
     </a>
   </footer>
 );
+
+Footer.propTypes = {
+  siteTitle: PropTypes.string,
+};
 
 export default Footer;
