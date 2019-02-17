@@ -35,69 +35,94 @@ export default class ContactForm extends React.Component {
   render() {
     return (
       <form
-        action="/contact/success/"
-        className="max-w-xs w-full"
         data-netlify-honeypot="bot-field"
         data-netlify="true"
+        onSubmit={this.handleSubmit}
+        action="/contact/success/"
+        className="max-w-xs w-full"
         method="post"
         name="contact"
       >
-        <input type="hidden" name="bot-field" onChange={this.handleChange} />
-        <div className="mb-4">
-          <label className="flex font-bold mb-2 text-sm" htmlFor="name">
-            Name
+        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+        <input type="hidden" name="form-name" value="contact" />
+        <div hidden>
+          <label>
+            Don’t fill this out:{' '}
+            <input name="bot-field" onChange={this.handleChange} />
           </label>
-          <input
-            className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
-            id="name"
-            name="name"
-            onChange={this.handleChange}
-            required
-            type="text"
-          />
         </div>
-        <div className="mb-4">
-          <label className="flex font-bold mb-2 text-sm" htmlFor="email">
-            Email
-          </label>
-          <input
-            className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
-            id="email"
-            name="email"
-            onChange={this.handleChange}
-            type="text"
-          />
-        </div>
-        <div className="mb-4">
-          <label className="flex font-bold mb-2 text-sm" htmlFor="message">
-            Message
-          </label>
-          <textarea
-            className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
-            id="message"
-            name="message"
-            onChange={this.handleChange}
-            rows="6"
-          />
-        </div>
-        <ul className="flex items-center justify-end list-reset">
-          <li className="mr-4">
+
+        {/* Name */}
+        <div className="mb-6">
+          <label className="flex flex-col" htmlFor="name">
+            <span className="font-bold mb-2 text-sm">Name:</span>
             <input
-              class="bg-red-lightest appearance-none border leading-tight px-3 py-2 rounded shadow text-red-darker"
+              className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
+              type="text"
+              name="name"
+              required
               onChange={this.handleChange}
-              type="reset"
-              value="Clear"
             />
-          </li>
-          <li>
+          </label>
+        </div>
+
+        {/* Phone number */}
+        <div className="mb-6">
+          <label className="flex flex-col">
+            <span className="font-bold mb-2 text-sm">Phone number:</span>
             <input
-              className="bg-green-lightest appearance-none border leading-tight px-3 py-2 rounded shadow text-green-darker"
+              className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
+              type="text"
+              name="phone"
               onChange={this.handleChange}
-              type="submit"
-              value="Send Message"
             />
-          </li>
-        </ul>
+          </label>
+        </div>
+
+        {/* Email address */}
+        <div className="mb-6">
+          <label className="flex flex-col">
+            <span className="font-bold mb-2 text-sm">Email address:</span>
+            <input
+              className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
+              type="email"
+              name="email"
+              onChange={this.handleChange}
+            />
+          </label>
+        </div>
+
+        {/* Message */}
+        <div className="mb-6">
+          <label className="flex flex-col">
+            <span className="font-bold mb-2 text-sm">Message:</span>
+            <textarea
+              className="appearance-none border leading-tight px-3 py-2 rounded shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
+              name="message"
+              required
+              rows={5}
+              onChange={this.handleChange}
+            />
+          </label>
+        </div>
+
+        <div className="flex items-center justify-end mb-6">
+          {/* Clear */}
+          <input
+            class="bg-red-lightest appearance-none border leading-tight mr-3 px-3 py-2 rounded shadow text-red-darker"
+            onChange={this.handleChange}
+            type="reset"
+            value="Clear form"
+          />
+
+          {/* Submit */}
+          <button
+            className="bg-green-lightest appearance-none border leading-tight px-3 py-2 rounded shadow text-green-darker"
+            type="submit"
+          >
+            Send
+          </button>
+        </div>
       </form>
     );
   }
