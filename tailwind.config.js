@@ -194,12 +194,27 @@ module.exports = {
   */
 
   fonts: {
-    sans: [
+    display: [
+      'D-DIN',
+      'Roboto',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
       'Segoe UI',
+      'Oxygen',
+      'Ubuntu',
+      'Cantarell',
+      'Fira Sans',
+      'Droid Sans',
+      'Helvetica Neue',
+      'sans-serif',
+    ],
+    sans: [
       'Roboto',
+      'system-ui',
+      'BlinkMacSystemFont',
+      '-apple-system',
+      'Segoe UI',
       'Oxygen',
       'Ubuntu',
       'Cantarell',

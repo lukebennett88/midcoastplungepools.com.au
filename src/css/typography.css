@@ -8,6 +8,7 @@ h3,
 h4,
 h5,
 h6 {
+  @apply font-medium;
   @apply leading-tight;
   @apply mb-2;
 }
@@ -24,12 +25,21 @@ h6:first-child {
 h1,
 h2,
 h3 {
-  @apply font-sans;
+  @apply font-display;
+  @apply text-blue-grey-600;
+}
+
+h1 {
+  @apply uppercase;
 }
 
 a {
-  @apply font-bold;
+  @apply font-medium;
   @apply no-underline;
+}
+
+strong {
+  font-weight: 500;
 }
 
 hr {

@@ -12,7 +12,7 @@ const handleClick = e => {
 };
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <header className="font-display">
     <div className="md:flex max-w-2xl mx-auto w-full">
       <div className="flex items-center">
         <div className="flex items-center justify-between w-full">
@@ -21,11 +21,12 @@ const Header = ({ siteTitle }) => (
             className="flex items-center no-underline px-4 text-grey-darkest"
           >
             <img className="h-8 mr-2 w-8" src={Logo} alt="" />
-            <span className="font-bold">{siteTitle}</span>
+            <span className="uppercase">{siteTitle}</span>
           </Link>
 
           <button
             className="flex md:hidden items-center justify-center p-4"
+            type="button"
             onClick={handleClick}
           >
             <svg
@@ -45,7 +46,7 @@ const Header = ({ siteTitle }) => (
       >
         <NavLink link="/" title="Home" />
         <NavLink link="/style-sample/" title="Style&nbsp;Sample" />
-        <NavLink link="/contact/" title="Contact" />
+        <NavLink link="#" title="Contact" />
       </nav>
     </div>
   </header>
@@ -54,7 +55,7 @@ const Header = ({ siteTitle }) => (
 const NavLink = props => (
   <Link
     to={props.link}
-    className="block md:inline-block border-blue-grey-100 border-t md:border-0 font-bold no-underline px-6 py-4 tracking-wide text-sm uppercase"
+    className="block md:inline-block border-blue-grey-100 border-t md:border-0 font-medium no-underline px-6 py-4 tracking-wide text-sm uppercase"
   >
     {props.title}
   </Link>

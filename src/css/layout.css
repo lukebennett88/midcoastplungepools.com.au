@@ -1,6 +1,6 @@
 ::selection {
   @apply text-white;
-  @apply bg-teal-600;
+  @apply bg-cyan-vivid-700;
 }
 
 html {
@@ -9,6 +9,6 @@ html {
 
 a {
   @apply inline-block;
-  @apply text-teal-600;
+  @apply text-cyan-vivid-700;
   transition: all 0.25s ease;
 }

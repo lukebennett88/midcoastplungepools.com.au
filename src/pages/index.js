@@ -9,11 +9,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="max-w-2xl mx-auto px-4 py-8 w-full">
-      <div className="max-w-md w-full">
-        <h1>Hi people</h1>
+      <div className="max-w-md mx-auto w-full">
+        <h1>Mid Coast Pluge Pools</h1>
         <p>Welcome to your new Gatsby site.</p>
         <p>Now go build something great.</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <div className="max-w-sm mx-auto w-full">
           <Image />
         </div>
         <Link to="/style-sample/">Check out the Style Sample page</Link>
