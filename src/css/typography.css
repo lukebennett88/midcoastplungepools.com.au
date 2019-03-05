@@ -34,7 +34,7 @@ a {
 
 hr {
   height: 1px;
-  @apply bg-grey-light;
+  @apply bg-blue-grey-100;
   @apply block;
   @apply border-none;
   @apply my-8;
@@ -125,9 +125,16 @@ li > p {
 
 blockquote {
   @apply border-l-4;
-  @apply text-grey-darker;
+  @apply border-blue-grey-050;
+  @apply text-blue-grey-500;
   @apply py-2;
   @apply px-6;
+  @apply text-lg;
+  @apply italic;
+}
+
+blockquote em {
+  @apply roman;
 }
 
 blockquote p {
@@ -141,7 +148,7 @@ pre {
   -moz-osx-font-smoothing: auto;
   -webkit-font-smoothing: auto;
   font-size: 0.9em;
-  @apply bg-grey-lighter;
+  @apply bg-blue-grey-050;
   @apply border-transparent;
   @apply font-mono;
   @apply mb-4;
@@ -199,12 +206,12 @@ td {
   padding: 0.7em;
   line-height: 1.4;
   @apply border;
-  @apply border-grey-light;
+  @apply border-blue-grey-100;
 }
 
 thead tr,
 tfoot tr {
-  @apply bg-grey-lighter;
+  @apply bg-blue-grey-050;
 }
 
 thead th,

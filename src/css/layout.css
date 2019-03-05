@@ -1,0 +1,14 @@
+::selection {
+  @apply text-white;
+  @apply bg-teal-600;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  @apply inline-block;
+  @apply text-teal-600;
+  transition: all 0.25s ease;
+}

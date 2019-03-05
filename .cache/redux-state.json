@@ -1,0 +1,1612 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6fb0c092c3b3b0698d6b4a73a81f639d",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "dd063afe45651a9946c3a528cf9fbd6d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9fc90e147f6259a0243b53ed185e24eb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3655cfd81abe8c35268fe7ac374fc2ec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "77da2f30bab79539280ca49044a0e80d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fb6f98654f30e9fb0161f4231399c078",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "745cc865b6b8228301ed90ce9554e33d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "10712cc0-2f77-57b7-933b-d73836884aba": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-manifest",
+      "id": "10712cc0-2f77-57b7-933b-d73836884aba",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.21",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "GatsbyJS",
+        "short_name": "GatsbyJS",
+        "start_url": "/",
+        "background_color": "#fff",
+        "theme_color": "#189473",
+        "display": "standalone",
+        "icon": "src/images/logo.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.21",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "88967222999d78977ed070a783299d1a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1eb101f5-b8d0-5e54-be8c-f89585c248b3": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-postcss",
+      "id": "1eb101f5-b8d0-5e54-be8c-f89585c248b3",
+      "name": "gatsby-plugin-postcss",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-postcss",
+      "packageJson": {
+        "name": "gatsby-plugin-postcss",
+        "description": "Gatsby plugin to handle PostCSS",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "postcss"
+        ],
+        "author": {
+          "name": "Marat Dreizin",
+          "email": "marat.dreizin@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "postcss-loader",
+            "version": "^3.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "82988a8ae7e9566d15df788754ace333",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a6f8de6f-4a0d-5ab2-8dc2-2099d98008b2": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-purgecss",
+      "id": "a6f8de6f-4a0d-5ab2-8dc2-2099d98008b2",
+      "name": "gatsby-plugin-purgecss",
+      "version": "3.1.0",
+      "pluginOptions": {
+        "plugins": [],
+        "tailwind": true,
+        "purgeOnly": [
+          "src/css/tailwind.css"
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-purgecss",
+      "packageJson": {
+        "name": "gatsby-plugin-purgecss",
+        "description": "Gatsby plugin for purgecss. Removes unused css/sass/less/stylus from files and modules. Supports Tailwindcss, Bootstrap, Bulma etc.",
+        "version": "3.1.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "css",
+          "sass",
+          "scss",
+          "stylus",
+          "less",
+          "optimize",
+          "clean",
+          "purgecss",
+          "purify",
+          "purifycss"
+        ],
+        "author": {
+          "name": "Ananto Ghosh"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "loader-utils",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "purgecss",
+            "version": "^1.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "1.7.0"
+          },
+          {
+            "name": "coveralls",
+            "version": "3.0.2"
+          },
+          {
+            "name": "dotenv",
+            "version": "6.2.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "2.0.79"
+          },
+          {
+            "name": "gatsby-plugin-less",
+            "version": "2.0.8"
+          },
+          {
+            "name": "gatsby-plugin-postcss",
+            "version": "2.0.2"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "2.0.7"
+          },
+          {
+            "name": "gatsby-plugin-stylus",
+            "version": "2.0.3"
+          },
+          {
+            "name": "jest",
+            "version": "23.6.0"
+          },
+          {
+            "name": "less",
+            "version": "3.9.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "4.11.0"
+          },
+          {
+            "name": "react",
+            "version": "16.7.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "16.7.0"
+          },
+          {
+            "name": "release-it",
+            "version": "9.4.3"
+          },
+          {
+            "name": "runjs",
+            "version": "4.3.2"
+          },
+          {
+            "name": "symlink-dir",
+            "version": "2.0.2"
+          },
+          {
+            "name": "tailwindcss",
+            "version": "0.7.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-beta"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5eebc913703be639d06974d58946c67a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b34792f19241d31cff18b2396489c3d0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.24",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.24",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3f816ad5b5e8049c1e8907919c79c775",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-sitemap",
+      "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
+      "name": "gatsby-plugin-sitemap",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5e18ab528c4623dfc372a7bec6805af3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "25610888-56cb-5b36-a72b-eb960f3c0534": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-source-filesystem",
+      "id": "25610888-56cb-5b36-a72b-eb960f3c0534",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.23",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.23",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bb6182af48faf614ee68c8fab3784dad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.15",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0a5bf4194ba96479aa27aa5653bef8b5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "ce6fe8a22d96410b3eb5f09a83b97e67",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate",
+      "packageJson": {
+        "name": "gatsby-boilerplate",
+        "description": "Gatsby starter styled with Tailwind",
+        "version": "1.0.0",
+        "author": "Luke Bennett <hello@lukebennett.com.au>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.1.20"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.31"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.21"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.24"
+          },
+          {
+            "name": "gatsby-plugin-postcss",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-purgecss",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.7"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.24"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.23"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.15"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.3"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "tailwindcss",
+            "version": "^0.7.4"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c8e25549d1cfe49abee840d005f2a863",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "730d4181-0508-5504-a683-87983069080a": {
+      "resolve": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-page-creator",
+      "id": "730d4181-0508-5504-a683-87983069080a",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "bbd6d893c9fe7b7bd47f06190c2c0e7c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Boilerplate",
+        "description": "Gatsby starter styled with Tailwind",
+        "siteUrl": "https://github.com/lukebennett88/gatsby-boilerplate",
+        "author": "@luke_bennett_"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-03-05T02:07:15.964Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9961afc8ac0817e0d26bcb4c8c05dc8f",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "40ee1299-919e-5d7f-9d64-263648010763": {
+      "id": "40ee1299-919e-5d7f-9d64-263648010763",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4e74ae50fc6b4547a8f4e218acbf0a65",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-03-05T00:33:51.987Z",
+      "accessTime": "2019-03-05T02:07:19.609Z",
+      "changeTime": "2019-03-05T00:33:51.987Z",
+      "birthTime": "2019-03-04T21:40:26.377Z",
+      "root": "/",
+      "dir": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20026893,
+      "blocks": 0,
+      "atimeMs": 1551751639608.715,
+      "mtimeMs": 1551746031987.4392,
+      "ctimeMs": 1551746031987.4392,
+      "birthtimeMs": 1551735626377.358,
+      "atime": "2019-03-05T02:07:19.609Z",
+      "mtime": "2019-03-05T00:33:51.987Z",
+      "ctime": "2019-03-05T00:33:51.987Z",
+      "birthtime": "2019-03-04T21:40:26.377Z"
+    },
+    "47e9789c-7cbb-52a6-a1a1-49b8d6652167": {
+      "id": "47e9789c-7cbb-52a6-a1a1-49b8d6652167",
+      "children": [
+        "474e70aa-662c-5c45-9c9b-9bff18056cd2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "04fb620fe883a0c94dbffe726c11a33d",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/images/logo.png",
+      "relativePath": "logo.png",
+      "extension": "png",
+      "size": 58402,
+      "prettySize": "58.4 kB",
+      "modifiedTime": "2018-12-13T02:43:33.378Z",
+      "accessTime": "2019-03-05T01:49:48.342Z",
+      "changeTime": "2019-03-05T00:33:51.991Z",
+      "birthTime": "2018-12-09T09:36:43.421Z",
+      "root": "/",
+      "dir": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/images",
+      "base": "logo.png",
+      "ext": ".png",
+      "name": "logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20185252,
+      "blocks": 120,
+      "atimeMs": 1551750588342.2192,
+      "mtimeMs": 1544669013378.1357,
+      "ctimeMs": 1551746031991.4392,
+      "birthtimeMs": 1544348203421.295,
+      "atime": "2019-03-05T01:49:48.342Z",
+      "mtime": "2018-12-13T02:43:33.378Z",
+      "ctime": "2019-03-05T00:33:51.991Z",
+      "birthtime": "2018-12-09T09:36:43.421Z"
+    },
+    "474e70aa-662c-5c45-9c9b-9bff18056cd2": {
+      "id": "474e70aa-662c-5c45-9c9b-9bff18056cd2",
+      "children": [],
+      "parent": "47e9789c-7cbb-52a6-a1a1-49b8d6652167",
+      "internal": {
+        "contentDigest": "04fb620fe883a0c94dbffe726c11a33d",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "dfd2e62b-045e-5aa9-b58b-b02ce818bb8c": {
+      "id": "dfd2e62b-045e-5aa9-b58b-b02ce818bb8c",
+      "children": [
+        "5e282f19-a24d-512b-94e6-e6dd548b38f5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-03-04T21:40:26.378Z",
+      "accessTime": "2019-03-05T02:05:33.006Z",
+      "changeTime": "2019-03-04T21:40:26.378Z",
+      "birthTime": "2019-03-04T21:40:26.377Z",
+      "root": "/",
+      "dir": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20026894,
+      "blocks": 328,
+      "atimeMs": 1551751533005.8914,
+      "mtimeMs": 1551735626378.2253,
+      "ctimeMs": 1551735626378.2253,
+      "birthtimeMs": 1551735626377.404,
+      "atime": "2019-03-05T02:05:33.006Z",
+      "mtime": "2019-03-04T21:40:26.378Z",
+      "ctime": "2019-03-04T21:40:26.378Z",
+      "birthtime": "2019-03-04T21:40:26.377Z"
+    },
+    "5e282f19-a24d-512b-94e6-e6dd548b38f5": {
+      "id": "5e282f19-a24d-512b-94e6-e6dd548b38f5",
+      "children": [],
+      "parent": "dfd2e62b-045e-5aa9-b58b-b02ce818bb8c",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "730d4181-0508-5504-a683-87983069080a",
+      "pluginCreatorId": "730d4181-0508-5504-a683-87983069080a",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "82cee8e981a96cb33bcaa2442fd06e9d",
+        "description": "730d4181-0508-5504-a683-87983069080a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "730d4181-0508-5504-a683-87983069080a",
+      "pluginCreatorId": "730d4181-0508-5504-a683-87983069080a",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2e5bc2a2c5a6c29dabbe62028ff0c2bc",
+        "description": "730d4181-0508-5504-a683-87983069080a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /style-sample/": {
+      "jsonName": "style-sample-0de",
+      "internalComponentName": "ComponentStyleSample",
+      "path": "/style-sample/",
+      "component": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/style-sample.js",
+      "componentChunkName": "component---src-pages-style-sample-js",
+      "context": {},
+      "pluginCreator___NODE": "730d4181-0508-5504-a683-87983069080a",
+      "pluginCreatorId": "730d4181-0508-5504-a683-87983069080a",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/style-sample.js",
+      "id": "SitePage /style-sample/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d755a10a13fc50c781e28367de5f5008",
+        "description": "730d4181-0508-5504-a683-87983069080a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d35916137caa6e1ea737bed89b26eaba",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "bd2fdaf792edf6de62bd574261794be2"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-seo-index-js",
+        "sq--src-components-layout-index-js"
+      ],
+      "dfd2e62b-045e-5aa9-b58b-b02ce818bb8c": [
+        "sq--src-components-image-index-js"
+      ],
+      "5e282f19-a24d-512b-94e6-e6dd548b38f5": [
+        "sq--src-components-image-index-js"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "sq--src-components-seo-js": 1025518380,
+    "sq--src-components-layout-js": 755544856,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "style-sample-0de": "52/path---style-sample-0-de-912-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-success-8ab": "295/path---contact-success-8-ab-e39-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-index-js": 755544856,
+    "sq--src-components-seo-index-js": 2417117884,
+    "sq--src-components-image-index-js": 2011440971
+  },
+  "components": {
+    "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/.cache/dev-404-page.js"
+    },
+    "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/404.js"
+    },
+    "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/index.js"
+    },
+    "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/style-sample.js": {
+      "query": "",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/pages/style-sample.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-seo-index-js": {
+      "name": "usersLukeSitesMiscGatsbyTailwindBoilerplateSrcComponentsSeoIndexJs2417117884",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/components/SEO/index.js",
+      "id": "sq--src-components-seo-index-js",
+      "jsonName": "sq--src-components-seo-index-js",
+      "query": "query usersLukeSitesMiscGatsbyTailwindBoilerplateSrcComponentsSeoIndexJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
+    },
+    "sq--src-components-image-index-js": {
+      "name": "usersLukeSitesMiscGatsbyTailwindBoilerplateSrcComponentsImageIndexJs2011440971",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/components/Image/index.js",
+      "id": "sq--src-components-image-index-js",
+      "jsonName": "sq--src-components-image-index-js",
+      "query": "query usersLukeSitesMiscGatsbyTailwindBoilerplateSrcComponentsImageIndexJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
+    "sq--src-components-layout-index-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/luke/Sites/Misc/gatsby-tailwind-boilerplate/src/components/Layout/index.js",
+      "id": "sq--src-components-layout-index-js",
+      "jsonName": "sq--src-components-layout-index-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    }
+  }
+}
