@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-boilerplate",
+  "name": "mid-coast-plunge-pools",
   "private": true,
-  "description": "Gatsby starter styled with Tailwind",
+  "description": "Website for Mid Coast Plunge Pools",
   "version": "1.0.0",
   "author": "Luke Bennett <hello@lukebennett.com.au>",
   "dependencies": {

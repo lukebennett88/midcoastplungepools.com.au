@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Boilerplate`,
-    description: `Gatsby starter styled with Tailwind`,
-    siteUrl: `https://github.com/lukebennett88/gatsby-boilerplate`,
+    title: `Mid Coast Plunge Pools`,
+    description: ``,
+    siteUrl: `https://www.midcoastplungepools.com.au`,
     author: `@luke_bennett_`,
   },
   plugins: [
