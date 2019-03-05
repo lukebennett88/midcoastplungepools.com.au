@@ -46,7 +46,6 @@ const Header = ({ siteTitle }) => (
       >
         <NavLink link="/" title="Home" />
         <NavLink link="/style-sample/" title="Style&nbsp;Sample" />
-        <NavLink link="#" title="Contact" />
       </nav>
     </div>
   </header>
