@@ -21,6 +21,8 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            phone
+            phone_formatted
           }
         }
       }
@@ -30,8 +32,12 @@ const Layout = ({ children }) => (
         id="top"
         className="antialiased flex flex-col font-sans min-h-screen text-blue-grey-500"
       >
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <main className="flex flex-col flex-1 md:justify-start w-full">
+        <Header
+          siteTitle={data.site.siteMetadata.title}
+          phone={data.site.siteMetadata.phone}
+          phone_formatted={data.site.siteMetadata.phone_formatted}
+        />
+        <main className="flex flex-col flex-1 md:justify-start relative w-full">
           {children}
         </main>
         <footer className="p-4 text-center">
@@ -43,7 +49,7 @@ const Layout = ({ children }) => (
         </footer>
         <a
           href="#top"
-          className="bg-cyan-vivid-700 hidden md:flex fixed h-10 items-end justify-center leading-none mb-16 mr-16 no-underline opacity-75 pin-b pin-r rounded-full shadow-lg w-10"
+          className="bg-cyan-vivid-700 hidden md:flex fixed h-10 items-end justify-center leading-none mb-16 mr-16 no-underline pin-b pin-r rounded-full shadow-lg w-10"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
