@@ -2,7 +2,8 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import Logo from '../../images/logo.png';
+import Logo from '../../images/logo-white.svg';
+import Background from '../../images/bg-alt.svg';
 
 const handleClick = e => {
   e.preventDefault();
@@ -11,26 +12,22 @@ const handleClick = e => {
   element.classList.toggle('hidden');
 };
 
-const Header = ({ siteTitle }) => (
-  <header className="font-display">
-    <div className="md:flex max-w-2xl mx-auto w-full">
+const Header = ({ phone, phone_formatted }) => (
+  <header className="flex flex-col font-display relative">
+    <img className="absolute" src={Background} alt="" />
+    <div className="md:flex max-w-2xl mx-auto relative w-full">
       <div className="flex items-center">
         <div className="flex items-center justify-between w-full">
-          <Link
-            to="/"
-            className="flex items-center no-underline px-4 text-grey-darkest"
-          >
-            <img className="h-8 mr-2 w-8" src={Logo} alt="" />
-            <span className="uppercase">{siteTitle}</span>
+          <Link to="/" className="flex items-center justify-center p-4">
+            <img className="w-64" src={Logo} alt="" />
           </Link>
-
           <button
             className="flex md:hidden items-center justify-center p-4"
             type="button"
             onClick={handleClick}
           >
             <svg
-              className="fill-current h-4 w-4"
+              className="fill-current h-6 text-white w-6"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -42,19 +39,32 @@ const Header = ({ siteTitle }) => (
       </div>
       <nav
         id="nav"
-        className="border-b border-blue-grey-100 md:border-transparent hidden md:flex md:flex-1 md:items-center md:justify-end w-full md:w-auto"
+        className="hidden md:flex md:flex-1 md:items-center md:justify-end p-4 w-full md:w-auto"
       >
-        <NavLink link="/" title="Home" />
-        <NavLink link="/style-sample/" title="Style&nbsp;Sample" />
+        <NavLink link="#about" title="About" />
+        <NavLink link="#why-us" title="Why Us" />
+        <NavLink link="#contact" title="Contact" button />
       </nav>
     </div>
+    <section className="max-w-md mx-auto relative w-full">
+      <h1 className="mb-6 text-white text-5xl">
+        Ask us how to transform your backyard today!
+      </h1>
+      <p>
+        <a className="button text-xl" href={phone}>
+          {phone_formatted}
+        </a>
+      </p>
+    </section>
   </header>
 );
 
 const NavLink = props => (
   <Link
     to={props.link}
-    className="block md:inline-block border-blue-grey-100 border-t md:border-0 font-medium no-underline px-6 py-4 tracking-wide text-sm uppercase"
+    className={`block md:inline-block font-bold no-underline px-6 py-4 text-white tracking-wide uppercase ${
+      props.button ? 'button' : ''
+    }`}
   >
     {props.title}
   </Link>
