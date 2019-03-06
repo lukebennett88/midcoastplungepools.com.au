@@ -12,3 +12,19 @@ a {
   @apply text-cyan-vivid-700;
   transition: all 0.25s ease;
 }
+
+.button {
+  @apply bg-white;
+  @apply font-bold;
+  @apply items-center;
+  @apply inline-flex;
+  @apply justify-center;
+  @apply leading-none;
+  @apply px-4;
+  @apply py-2;
+  @apply rounded-l-full;
+  @apply rounded-r-full;
+  @apply text-blue-vivid-700;
+  @apply tracking-wide;
+  @apply uppercase;
+}
