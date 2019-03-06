@@ -4,6 +4,8 @@ module.exports = {
     description: ``,
     siteUrl: `https://www.midcoastplungepools.com.au`,
     author: `@luke_bennett_`,
+    phone: `tel:0402148861`,
+    phone_formatted: `0402 148 861`,
   },
   plugins: [
     {
