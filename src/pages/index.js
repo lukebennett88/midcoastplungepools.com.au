@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'gatsby';
+// import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 // import Image from '../components/Image';
@@ -22,14 +22,14 @@ const IndexPage = ({ data }) => (
   </Layout>
 );
 
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
+// export const pageQuery = graphql`
+//   query {
+//     site {
+//       siteMetadata {
+//         title
+//       }
+//     }
+//   }
+// `;
 
 export default IndexPage;
