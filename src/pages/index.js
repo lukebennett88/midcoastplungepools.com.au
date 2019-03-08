@@ -1,35 +1,32 @@
 import React from 'react';
-// import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
-import Layout from '../components/Layout';
-// import Image from '../components/Image';
 import SEO from '../components/SEO';
+import Logo from '../images/logo.svg';
 
 const IndexPage = ({ data }) => (
-  <Layout>
+  <div className="flex flex-col h-screen items-center justify-center max-w-2xl mx-auto p-8 text-blue-grey-800 w-full">
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <div className="max-w-2xl mx-auto px-4 py-8 w-full">
-      <div className="max-w-md mx-auto w-full">
-        {/* <h1>{data.site.siteMetadata.title}</h1>
-        <p>
-          <Link to="/style-sample/">Check out the Style Sample page</Link>
-        </p>
-        <div className="w-full">
-          <Image />
-        </div> */}
-      </div>
-    </div>
-  </Layout>
+    <img className="max-w-sm mb-6 w-full" src={Logo} alt="" />
+    <p>Website coming soon!</p>
+    <p>
+      <a className="button border-2" href={data.site.siteMetadata.phone}>
+        {data.site.siteMetadata.phone_formatted}
+      </a>
+    </p>
+  </div>
 );
 
-// export const pageQuery = graphql`
-//   query {
-//     site {
-//       siteMetadata {
-//         title
-//       }
-//     }
-//   }
-// `;
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        phone
+        phone_formatted
+      }
+    }
+  }
+`;
 
 export default IndexPage;
