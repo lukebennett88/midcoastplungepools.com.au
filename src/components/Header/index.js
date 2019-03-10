@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import Logo from '../../images/logo-white.svg';
-import Background from '../../images/bg-alt.svg';
 
 const handleClick = e => {
   e.preventDefault();
@@ -14,7 +13,6 @@ const handleClick = e => {
 
 const Header = ({ phone, phone_formatted }) => (
   <header className="flex flex-col font-display relative">
-    <img className="absolute" src={Background} alt="" />
     <div className="md:flex max-w-2xl mx-auto relative w-full">
       <div className="flex items-center">
         <div className="flex items-center justify-between w-full">
