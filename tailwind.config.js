@@ -195,6 +195,7 @@ module.exports = {
 
   fonts: {
     display: [
+      'DIN Alternate',
       'D-DIN',
       'Roboto',
       'system-ui',
