@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="bg-cyan-vivid-050 flex flex-col font-sans min-h-screen relative text-grey-darkest">
+      <div className="flex flex-col font-sans min-h-screen relative text-grey-darkest">
         <Header siteTitle={data.site.siteMetadata.title} />
         {children}
         <Footer />

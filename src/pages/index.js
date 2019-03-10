@@ -36,7 +36,7 @@ const IndexPage = ({ data }) => (
 );
 
 const Hero = ({ title }) => (
-  <div className="hero flex items-center max-w-3xl mx-auto overflow-hidden relative shadow w-full">
+  <div className="hero flex items-center max-w-3xl mx-auto overflow-hidden relative w-full">
     <div className="hero-container">
       <Image className="hero-img" />
     </div>
