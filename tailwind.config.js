@@ -24,7 +24,7 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-const defaultConfig = require('tailwindcss/defaultConfig')();
+let defaultConfig = require('tailwindcss/defaultConfig')();
 
 /*
 |-------------------------------------------------------------------------------
@@ -42,10 +42,42 @@ const defaultConfig = require('tailwindcss/defaultConfig')();
 |
 */
 
-const colors = {
+let colors = {
   transparent: 'transparent',
-  white: '#ffffff',
+  'transparent-white': 'hsla(360, 100%, 100%, 0.75)',
+
   black: '#22292f',
+  'grey-darkest': '#3d4852',
+  'grey-darker': '#606f7b',
+  'grey-dark': '#8795a1',
+  grey: '#b8c2cc',
+  'grey-light': '#dae1e7',
+  'grey-lighter': '#f1f5f8',
+  'grey-lightest': '#f8fafc',
+  white: '#ffffff',
+
+  // red
+  'red-050': '#FFEEEE',
+  'red-100': '#FACDCD',
+  'red-200': '#F29B9B',
+  'red-300': '#E66A6A',
+  'red-400': '#D64545',
+  'red-500': '#BA2525',
+  'red-600': '#A61B1B',
+  'red-700': '#911111',
+  'red-800': '#780A0A',
+  'red-900': '#610404',
+
+  'green-050': '#E3F9E5',
+  'green-100': '#C1EAC5',
+  'green-200': '#A3D9A5',
+  'green-300': '#7BC47F',
+  'green-400': '#57AE5B',
+  'green-500': '#3F9142',
+  'green-600': '#2F8132',
+  'green-700': '#207227',
+  'green-800': '#0E5814',
+  'green-900': '#05400A',
 
   // cyan
   'cyan-050': '#E0FCFF',
@@ -146,7 +178,7 @@ module.exports = {
   |
   */
 
-  colors,
+  colors: colors,
 
   /*
   |-----------------------------------------------------------------------------
@@ -172,6 +204,7 @@ module.exports = {
     md: '768px',
     lg: '992px',
     xl: '1200px',
+    xxl: '1300px',
   },
 
   /*

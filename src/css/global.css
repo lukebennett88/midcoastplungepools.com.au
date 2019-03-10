@@ -1,0 +1,92 @@
+::selection {
+  @apply text-white;
+  @apply bg-cyan-vivid-700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cyan-vivid-050;
+}
+
+a {
+  @apply inline-block;
+  @apply text-cyan-vivid-700;
+  transition: all 0.25s ease;
+}
+
+.hero {
+  min-height: 66.6666vh;
+  background: linear-gradient(
+    180deg,
+    rgba(9, 11, 149, 1) 0%,
+    rgba(9, 11, 149, 1) 100%
+  );
+}
+
+.hero-container {
+  @apply absolute;
+  @apply h-full;
+  @apply opacity-50;
+  @apply w-full;
+}
+
+.hero-container > .gatsby-image-wrapper {
+  @apply h-full;
+  @apply w-full;
+}
+
+.contact {
+  transform: translateY(-100%);
+}
+
+.button {
+  transition: all 0.25s ease;
+  @apply bg-white;
+  @apply border-2;
+  @apply border-blue-vivid-700;
+  @apply font-bold;
+  @apply items-center;
+  @apply inline-flex;
+  @apply justify-center;
+  @apply leading-none;
+  @apply px-4;
+  @apply py-2;
+  @apply relative;
+  @apply rounded-l-full;
+  @apply rounded-r-full;
+  @apply text-blue-vivid-700;
+  @apply uppercase;
+  @apply whitespace-no-wrap;
+}
+
+.button:hover {
+  @apply text-white;
+  @apply bg-blue-vivid-700;
+}
+
+.primary {
+  @apply fill-current;
+  @apply text-white;
+}
+
+.secondary {
+  @apply fill-current;
+  @apply text-cyan-vivid-200;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  --margin: 1rem;
+  --modifier: calc(55rem - 100%);
+  margin: calc(var(--margin) * -1);
+}
+
+.cards > * {
+  flex-grow: 1;
+  flex-basis: calc(var(--modifier) * 999);
+  margin: var(--margin);
+}

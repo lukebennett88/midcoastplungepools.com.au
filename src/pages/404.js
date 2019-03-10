@@ -1,17 +1,27 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
-// import Layout from '../components/Layout';
+import Layout from '../components/Layout';
+import Wrapper from '../components/Wrapper';
 import SEO from '../components/SEO';
 
-import '../css/tailwind.css';
-import '../css/typography.css';
-import '../css/layout.css';
-
 const NotFoundPage = () => (
-  <div className="flex flex-col h-screen items-center justify-center max-w-2xl mx-auto p-8 text-blue-grey-800 w-full">
-    <SEO title="404: Not found" />
-    <h1>404: PAGE NOT FOUND</h1>
-  </div>
+  <Layout>
+    <Wrapper>
+      <SEO title="404: Not found" />
+      <div className="max-w-2xl mx-auto w-full">
+        <div className="max-w-md p-4">
+          <h1>404: Page not found</h1>
+          <hr />
+          <p className="py-4">
+            <Link to="/" className="button">
+              Return to home
+            </Link>
+          </p>
+        </div>
+      </div>
+    </Wrapper>
+  </Layout>
 );
 
 export default NotFoundPage;
