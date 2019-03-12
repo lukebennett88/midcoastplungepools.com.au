@@ -38,7 +38,7 @@ export default class ContactForm extends React.Component {
         data-netlify-honeypot="bot-field"
         data-netlify="true"
         onSubmit={this.handleSubmit}
-        action="/contact/success/"
+        action="/success/"
         className="w-full"
         method="post"
         name="contact"
@@ -94,44 +94,6 @@ export default class ContactForm extends React.Component {
               onChange={this.handleChange}
               type="text"
             />
-          </label>
-        </div>
-
-        {/* Enquiry type */}
-        <div className="mb-6">
-          <label className="flex flex-col" htmlFor="enquiry">
-            <span className="font-bold mb-2 text-sm">Enquiry type: </span>
-            <div className="block relative w-full">
-              <select
-                className="appearance-none bg-white border border-grey-light hover:border-grey leading-tight pr-8 px-4 py-2 rounded hover:shadow text-grey-darker w-full focus:outline-none focus:shadow-outline"
-                id="enquiry"
-                name="enquiry"
-                onChange={this.handleChange}
-                required
-              >
-                <option value="" disabled selected>
-                  What would you like to know?{' '}
-                </option>
-                <option value="Purchase a company">Purchase a company </option>
-                <option value="Purchase SMSF">Purchase SMSF </option>
-                <option value="Purchase Life Insurance">
-                  Purchase Life Insurance{' '}
-                </option>
-                <option value="Purchase Income Protection">
-                  Purchase Income Protection{' '}
-                </option>
-                <option value="Other">Other </option>
-              </select>
-              <div className="pointer-events-none absolute pin-y pin-r flex items-center px-2 text-grey-darker">
-                <svg
-                  className="fill-current h-4 w-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                </svg>
-              </div>
-            </div>
           </label>
         </div>
 
