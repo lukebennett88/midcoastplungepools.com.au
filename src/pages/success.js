@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import Layout from '../../components/Layout';
-import Wrapper from '../../components/Wrapper';
-import SEO from '../../components/SEO';
+import Layout from '../components/Layout';
+import Wrapper from '../components/Wrapper';
+import SEO from '../components/SEO';
 
 const SuccessPage = () => (
   <Layout>
