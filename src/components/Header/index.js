@@ -45,10 +45,10 @@ const Header = ({ siteTitle }) => (
         id="nav"
         className="border-b lg:border-none hidden lg:flex lg:flex-1 items-center lg:justify-end w-full lg:w-auto"
       >
-        <NavLink link="/about/" title="About" />
-        <NavLink link="/why-us/" title="Why&nbsp;Us" />
-        <NavLink link="/products/" title="Products" />
-        <NavLink link="/contact/" title="Contact" button />
+        <NavLink link="/#about" title="About" />
+        <NavLink link="/#why-us" title="Why&nbsp;Us" />
+        <NavLink link="/#products" title="Products" />
+        <NavLink link="/contact" title="Contact" button />
       </nav>
     </div>
   </header>
