@@ -125,7 +125,7 @@ const HeroContact = ({ phone, phone_formatted, email }) => (
 );
 
 const Contact = ({ phone, phone_formatted, email }) => (
-  <div className="max-w-3xl mx-auto w-full">
+  <div className="max-w-3xl -mt-10 mx-auto w-full">
     <div className="flex flex-wrap w-full">
       <div className="p-4 w-full md:w-1/2">
         <h1 className="text-5xl">Contact</h1>
