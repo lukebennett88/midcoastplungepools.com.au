@@ -16,6 +16,12 @@ module.exports = {
     //   },
     // },
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.midcoastplungepools.com.au`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Mid Coast Plunge Pools`,
