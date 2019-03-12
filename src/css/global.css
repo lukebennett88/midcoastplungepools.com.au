@@ -70,7 +70,12 @@ a {
 
 .secondary {
   @apply fill-current;
-  @apply text-cyan-vivid-200;
+  @apply text-cyan-300;
+}
+
+.tertiary {
+  @apply fill-current;
+  @apply text-blue-vivid-600;
 }
 
 .cards {
