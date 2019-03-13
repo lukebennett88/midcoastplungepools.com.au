@@ -13,6 +13,16 @@ a {
   transition: all 0.25s ease;
 }
 
+.header {
+  height: 6rem;
+}
+
+@screen md {
+  .header-spacer {
+    @apply py-24;
+  }
+}
+
 .hero {
   min-height: 66.6666vh;
   background: linear-gradient(
