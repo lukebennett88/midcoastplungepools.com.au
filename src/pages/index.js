@@ -49,10 +49,11 @@ const Hero = ({ title }) => (
     </div>
     <div className="max-w-sm mx-auto px-4 py-16 relative rounded text-center w-full">
       <Link to="/">
-        <h1 className="text-5xl text-white">
-          <img className="w-full" src={Logo} alt={title} />
-        </h1>
+        <img className="w-full" src={Logo} alt={title} />
       </Link>
+      <h1 className="normal-case text-3xl md:text-5xl text-white">
+        Transform&nbsp;your backyard&nbsp;today!
+      </h1>
     </div>
   </div>
 );
