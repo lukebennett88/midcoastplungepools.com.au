@@ -10,7 +10,7 @@ const handleClick = ev => {
 };
 
 const Header = ({ siteTitle }) => (
-  <header className="bg-white max-w-3xl mx-auto pin-t px-4 sticky w-full z-10">
+  <header className="bg-white max-w-3xl mx-auto pin-t px-4 md:sticky w-full z-10">
     <div className="lg:flex">
       <div className="flex items-center border-b lg:border-b-0">
         <div className="flex items-center justify-between w-full">
