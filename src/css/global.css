@@ -22,14 +22,13 @@ a {
   );
 }
 
-.hero-container {
+.image-container {
   @apply absolute;
   @apply h-full;
-  @apply opacity-50;
   @apply w-full;
 }
 
-.hero-container > .gatsby-image-wrapper {
+.image-container > .gatsby-image-wrapper {
   @apply h-full;
   @apply w-full;
 }

@@ -44,8 +44,8 @@ const IndexPage = ({ data }) => (
 
 const Hero = ({ title }) => (
   <div className="hero flex items-center max-w-3xl mx-auto overflow-hidden relative w-full">
-    <div className="hero-container">
-      <HeroImage className="hero-img" />
+    <div className="image-container opacity-50">
+      <HeroImage />
     </div>
     <div className="max-w-sm mx-auto px-4 py-16 relative rounded text-center w-full">
       <Link to="/">
@@ -172,8 +172,10 @@ const Contact = ({ phone, phone_formatted, email }) => (
         {/* Contact Form */}
         <ContactForm />
       </div>
-      <div className="w-full md:w-1/2">
-        <ContactImage />
+      <div className="bg-blue-vivid-700 relative w-full md:w-1/2">
+        <div className="image-container opacity-75">
+          <ContactImage />
+        </div>
       </div>
     </div>
   </div>
