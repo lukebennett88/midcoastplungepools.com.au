@@ -3,9 +3,10 @@ import { graphql, Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import HeroImage from '../components/HeroImage';
+import HeroImage from '../components/Image';
 import ContactForm from '../components/Form';
-import ContactImage from '../components/ContactImage';
+import About from '../components/About';
+import ContactImage from '../components/Image/Contact';
 import Logo from '../images/logo-white.svg';
 
 const IndexPage = ({ data }) => (
@@ -33,6 +34,7 @@ const IndexPage = ({ data }) => (
         phone_formatted={data.site.siteMetadata.phone_formatted}
         email={data.site.siteMetadata.email}
       />
+      <About />
       <Contact
         phone={data.site.siteMetadata.phone}
         phone_formatted={data.site.siteMetadata.phone_formatted}
@@ -126,13 +128,13 @@ const HeroContact = ({ phone, phone_formatted, email }) => (
 );
 
 const Contact = ({ phone, phone_formatted, email }) => (
-  <div className="max-w-3xl -mt-10 mx-auto w-full">
+  <div className="max-w-3xl mx-auto w-full" id="contact">
     <div className="flex flex-wrap w-full">
-      <div className="p-4 w-full md:w-1/2">
-        <h1 className="text-5xl">Contact</h1>
+      <div className="header-spacer p-4 w-full md:w-1/2">
+        <h2>Contact</h2>
         {/* Contact Info */}
         <div className="mb-8">
-          <h2>Contact Information</h2>
+          <h3>Contact Information</h3>
           {/* Phone */}
           <p className="flex items-center mb-2">
             <svg
