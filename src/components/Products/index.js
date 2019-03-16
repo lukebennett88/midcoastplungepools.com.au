@@ -14,22 +14,26 @@ const Products = () => (
           Our pools are made from solid concrete, manufactured to strict quality
           standards right here in Australia — we don’t cut any corners!
         </p>
-        <p>We will:</p>
+        <p className="mb-0">We will:</p>
         <ul>
           <li>Fully design your pool</li>
           <li>Get the approvals and meet the regulations</li>
           <li>Construct your pool (and any other works)</li>
         </ul>
-        <p>All of our pools come standard with the following features:</p>
+        <p className="mb-0">
+          All of our pools come standard with the following features:
+        </p>
         <ul>
           <li>Full ceramic mosaic tiling in many different colours</li>
           <li>Stone coping in a range of options</li>
-          <li>Solid concrete floors & walls, with in built seats</li>
+          <li>Solid concrete floors &amp; walls, with in built seats</li>
           <li>Multi-coloured LED light</li>
           <li>Jets and skimmer</li>
           <li>Range of pool pump and filtration packages</li>
         </ul>
-        <p>We also offer the following optional premium upgrades</p>
+        <p className="mb-0">
+          We also offer the following optional premium upgrades
+        </p>
         <ul>
           <li>External textured paint, tiles or polish</li>
           <li>Pool pump and filtration packages</li>
