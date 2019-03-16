@@ -5,7 +5,7 @@ const Products = () => (
   <div className="flex flex-wrap max-w-4xl mx-auto w-full" id="products">
     <div className="header-spacer px-4 w-full md:w-1/2">
       <div className="max-w-sm mx-auto">
-        <h3>Rectangular Pools</h3>
+        <h2>Rectangular Pools</h2>
         <div className="overflow-x-auto">
           <table>
             <thead>
