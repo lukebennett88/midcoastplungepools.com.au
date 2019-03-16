@@ -36,38 +36,6 @@ const Products = () => (
           <li>Heating and installation solutions</li>
           <li>Solar thermal blankets</li>
         </ul>
-        <p>
-          Mid Coast Plunge Pools offer both round and rectangular pools in the
-          following sizes:
-        </p>
-
-        <h3>Rectangular Pools</h3>
-        <table>
-          <thead>
-            <tr>
-              <th>Size</th>
-              <th>Height</th>
-              <th>Width</th>
-              <th>Length</th>
-              <th>Weight</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1,300L</td>
-              <td>1,600mm</td>
-              <td>2,480mm</td>
-              <td>4,800mm</td>
-              <td>10,000kg</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <p>Note: height is to top of pool coping</p>
-        <p>
-          Guidelines for fencing requirements can be obtained from your local
-          council.
-        </p>
       </div>
     </div>
     <div className="flex h-64 md:h-auto w-full md:w-1/2">
