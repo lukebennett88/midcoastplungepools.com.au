@@ -10,7 +10,7 @@ const handleClick = ev => {
 };
 
 const Header = ({ siteTitle }) => (
-  <header className="bg-white max-w-3xl mx-auto pin-t px-4 md:sticky w-full z-10">
+  <header className="bg-white max-w-4xl mx-auto pin-t px-4 md:sticky w-full z-20">
     <div className="md:flex">
       <div className="flex items-center border-b md:border-b-0">
         <div className="flex items-center justify-between w-full">
@@ -57,7 +57,7 @@ const Header = ({ siteTitle }) => (
 const NavLink = props => (
   <Link
     to={props.link}
-    className={`hover:bg-blue-vivid-600 hover:text-blue-vivid-050 block md:inline-flex border-b md:border-0 font-semibold no-underline p-4 text-blue-vivid-600 tracking-wide text-sm uppercase ${
+    className={`hover:bg-blue-vivid-600 block md:inline-flex border-b md:border-0 font-semibold no-underline p-4 tracking-wide text-sm hover:text-white uppercase ${
       props.button
         ? 'button mb-2 md:mb-0 ml-3 md:ml-2 mr-4 xxl:mr-0 mt-2 md:mt-0'
         : ''
