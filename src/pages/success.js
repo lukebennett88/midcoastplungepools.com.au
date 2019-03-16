@@ -9,11 +9,13 @@ const SuccessPage = () => (
   <Layout>
     <Wrapper>
       <SEO title="Success: message sent" />
-      <div className="max-w-2xl mx-auto w-full">
-        <div className="max-w-md p-4">
+      <div className="flex items-center justify-center mx-auto w-full">
+        <div className="max-w-sm p-4">
           <h1>Message sent</h1>
-          <hr />
-          <p>Thank you for your message.</p>
+          <p>
+            Thank you for your message. We will get back to you as soon as we
+            can.
+          </p>
           <p>
             <Link className="button" to="/">
               Return to home

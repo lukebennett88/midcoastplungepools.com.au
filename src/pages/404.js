@@ -9,10 +9,10 @@ const NotFoundPage = () => (
   <Layout>
     <Wrapper>
       <SEO title="404: Not found" />
-      <div className="max-w-2xl mx-auto w-full">
-        <div className="max-w-md p-4">
+      <div className="flex items-center justify-center mx-auto w-full">
+        <div className="max-w-sm p-4">
           <h1>404: Page not found</h1>
-          <hr />
+          <p>The page you were looking for can not be found.</p>
           <p className="py-4">
             <Link to="/" className="button">
               Return to home
