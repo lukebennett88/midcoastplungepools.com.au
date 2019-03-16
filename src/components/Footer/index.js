@@ -20,8 +20,8 @@ const Footer = () => (
       }
     `}
     render={data => (
-      <footer className="bg-white pin-b relative text-white w-full">
-        <div className="bg-blue-vivid-600 max-w-3xl mx-auto w-full">
+      <footer className="bg-white flex pin-b relative text-white w-full">
+        <div className="bg-blue-vivid-600 max-w-4xl mx-auto w-full">
           {/* Main section */}
           <div className="max-w-3xl mb-12 mx-auto w-full">
             <div className="cards max-w-2xl w-full">
