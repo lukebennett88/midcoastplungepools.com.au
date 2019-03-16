@@ -30,6 +30,10 @@ a {
   );
 }
 
+.contact {
+  background: hsla(215, 96%, 32%, 0.9);
+}
+
 .image-container {
   @apply absolute;
   @apply h-full;
