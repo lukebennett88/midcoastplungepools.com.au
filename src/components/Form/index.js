@@ -43,7 +43,7 @@ export default class ContactForm extends React.Component {
         method="post"
         name="contact"
       >
-        <h2>Contact Form</h2>
+        <h3>Contact form</h3>
         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
         <input type="hidden" name="form-name" value="contact" />
         <div hidden>
@@ -58,7 +58,7 @@ export default class ContactForm extends React.Component {
           <label className="flex flex-col" htmlFor="name">
             <span className="font-bold mb-2 text-sm">Name:</span>
             <input
-              className="appearance-none bg-white border hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
+              className="appearance-none bg-white border-2 hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
               id="name"
               name="name"
               onChange={this.handleChange}
@@ -73,7 +73,7 @@ export default class ContactForm extends React.Component {
           <label className="flex flex-col" htmlFor="email">
             <span className="font-bold mb-2 text-sm">Email address:</span>
             <input
-              className="appearance-none bg-white border hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
+              className="appearance-none bg-white border-2 hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
               id="email"
               name="email"
               onChange={this.handleChange}
@@ -88,7 +88,7 @@ export default class ContactForm extends React.Component {
           <label className="flex flex-col" htmlFor="phone">
             <span className="font-bold mb-2 text-sm">Phone number:</span>
             <input
-              className="appearance-none bg-white border hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
+              className="appearance-none bg-white border-2 hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
               id="phone"
               name="phone"
               onChange={this.handleChange}
@@ -102,7 +102,7 @@ export default class ContactForm extends React.Component {
           <label className="flex flex-col" htmlFor="message">
             <span className="font-bold mb-2 text-sm">Message:</span>
             <textarea
-              className="appearance-none bg-white border hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
+              className="appearance-none bg-white border-2 hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
               id="message"
               name="message"
               onChange={this.handleChange}
@@ -123,7 +123,7 @@ export default class ContactForm extends React.Component {
 
           {/* Submit */}
           <button
-            className=" bg-green-050 appearance-none font-bold leading-tight px-3 py-2 rounded-none text-green-600"
+            className="bg-cyan-050 appearance-none font-bold leading-tight px-3 py-2 rounded-none text-cyan-700"
             type="submit"
           >
             Send
