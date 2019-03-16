@@ -13,7 +13,7 @@ const About = () => (
         </p>
 
         <p>
-          We service the entire Mid North Coast (from Newcastle to the Ballina.)
+          We service the entire Mid North Coast, from Newcastle to the Ballina.
         </p>
 
         <p>Call us today to make your dream of owning a pool a reality!</p>
