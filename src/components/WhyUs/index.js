@@ -12,9 +12,7 @@ const WhyUs = () => (
     </div>
     <div className="header-spacer px-4 w-full md:w-1/2">
       <div className="max-w-sm mx-auto">
-        <h2 className="text-3xl md:text-5xl uppercase">
-          Reasons to buy a plunge pool
-        </h2>
+        <h2>Reasons to buy a plunge pool</h2>
         <ul className="list-reset">
           <li className="mb-6">
             <h3>Make an impression</h3>

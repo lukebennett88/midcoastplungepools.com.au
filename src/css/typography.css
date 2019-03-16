@@ -33,6 +33,18 @@ h1 {
   @apply uppercase;
 }
 
+h2 {
+  @apply uppercase;
+  @apply text-3xl;
+  @apply uppercase;
+}
+
+@screen md {
+  h2 {
+    @apply text-5xl;
+  }
+}
+
 a {
   @apply font-medium;
   @apply no-underline;

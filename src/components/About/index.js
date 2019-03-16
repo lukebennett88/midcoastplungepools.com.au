@@ -5,7 +5,7 @@ const About = () => (
   <div className="flex flex-wrap max-w-4xl mx-auto w-full" id="about">
     <div className="header-spacer px-4 w-full md:w-1/2">
       <div className="max-w-sm mx-auto">
-        <h2 className="text-3xl md:text-5xl uppercase">About</h2>
+        <h2>About</h2>
         <p>
           Mid Coast Plunge Pools is a professional and innovative young company
           dedicated to helping you transform your backyard into a stylish and

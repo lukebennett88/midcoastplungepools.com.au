@@ -5,7 +5,7 @@ const Products = () => (
   <div className="flex flex-wrap max-w-4xl mx-auto w-full" id="products">
     <div className="header-spacer px-4 w-full md:w-1/2">
       <div className="max-w-sm mx-auto">
-        <h2 className="text-3xl md:text-5xl uppercase">Products</h2>
+        <h2>Products</h2>
         <p>
           Mid Coast Plunge Pools takes the stress out of achieving your backyard
           vision.

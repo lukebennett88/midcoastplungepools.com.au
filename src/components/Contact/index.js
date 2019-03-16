@@ -31,7 +31,7 @@ const Contact = () => (
           </div>
           <div className="header-spacer p-4 w-full md:w-1/2">
             <div className="max-w-sm mx-auto">
-              <h2 className="text-3xl md:text-5xl uppercase">Contact</h2>
+              <h2>Contact</h2>
               {/* Contact Info */}
               <div className="mb-8">
                 <h3>Contact information</h3>
