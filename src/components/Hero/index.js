@@ -35,7 +35,7 @@ const Hero = () => (
             Transform&nbsp;your backyard&nbsp;today!
           </h1>
         </div>
-        <div className="contact absolute max-w-3xl pin-b pin-l pin-r pt-8 sm:pt-0 px-4 mx-auto w-full z-10">
+        <div className="contact absolute max-w-4xl pin-b pin-l pin-r px-4 w-full z-10">
           <div className="flex flex-wrap items-center justify-around p-4">
             {/* Phone */}
             <p className="flex items-center mb-2 md:m-0 w-full md:w-auto">
@@ -99,7 +99,7 @@ const Hero = () => (
                   />
                 </svg>
                 <a className="text-white" href="/contact/">
-                  Contact form
+                  Contact us
                 </a>
               </p>
             </p>
