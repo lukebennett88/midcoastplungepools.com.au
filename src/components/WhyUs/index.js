@@ -15,14 +15,19 @@ const WhyUs = () => (
         <h2 className="text-3xl md:text-5xl uppercase">
           Reasons to buy a plunge pool
         </h2>
-        <ol>
+        <ul className="list-reset">
           <li className="mb-6">
             <h3>Make an impression</h3>
             <p>
               Plunge pools look great, they make an excellent feature to your
-              garden or entertainment area. Fun for the whole family. They’re
-              not just there to look pretty, pools are meant to be enjoyed. Your
-              friends and family are sure to love it.
+              garden or entertainment area.
+            </p>
+          </li>
+          <li className="mb-6">
+            <h3>Fun for the whole family</h3>
+            <p>
+              They’re not just there to look pretty, pools are meant to be
+              enjoyed. Your friends and family are sure to love it.
             </p>
           </li>
           <li className="mb-6">
@@ -36,9 +41,9 @@ const WhyUs = () => (
           <li className="mb-6">
             <h3>Low maintenance</h3>
             <p>
-              It’s simple math, smaller pools mean smaller areas for you to have
-              to maintain, and because they’re built with premium materials,
-              there are fewer things that can go wrong.
+              It’s simple math, smaller pools mean smaller areas for you to
+              maintain, and because they’re built with premium materials, there
+              are fewer things that can go wrong.
             </p>
           </li>
           <li className="mb-6">
@@ -49,7 +54,7 @@ const WhyUs = () => (
               your backyard.
             </p>
           </li>
-        </ol>
+        </ul>
       </div>
     </div>
   </div>
