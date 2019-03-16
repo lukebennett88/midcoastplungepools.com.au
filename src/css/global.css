@@ -94,3 +94,7 @@ a {
   flex-basis: calc(var(--modifier) * 999);
   margin: var(--margin);
 }
+
+.h-48-rem {
+  min-height: 48rem;
+}

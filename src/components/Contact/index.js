@@ -22,7 +22,7 @@ const Contact = () => (
     render={data => (
       <div className="max-w-4xl mx-auto w-full" id="contact">
         <div className="flex flex-wrap-reverse w-full">
-          <div className="flex h-64 md:h-auto w-full md:w-1/2">
+          <div className="flex h-48-rem md:h-auto w-full md:w-1/2">
             <div className="bg-blue-vivid-700 h-full w-full relative">
               <div className="image-container opacity-75">
                 <Image />
@@ -34,7 +34,7 @@ const Contact = () => (
               <h2 className="text-3xl md:text-5xl uppercase">Contact</h2>
               {/* Contact Info */}
               <div className="mb-8">
-                <h3>Contact Information</h3>
+                <h3>Contact information</h3>
                 {/* Phone */}
                 <p className="flex items-center mb-2">
                   <svg
