@@ -17,10 +17,8 @@ a {
   height: 6rem;
 }
 
-@screen md {
-  .header-spacer {
-    @apply py-24;
-  }
+.header-spacer {
+  @apply py-24;
 }
 
 .hero {

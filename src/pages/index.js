@@ -6,6 +6,8 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import WhyUs from '../components/WhyUs';
 import Products from '../components/Products';
+import Round from '../components/Round';
+import Rectangular from '../components/Rectangular';
 import Contact from '../components/Contact';
 
 const IndexPage = () => (
@@ -27,6 +29,8 @@ const IndexPage = () => (
     <About />
     <WhyUs />
     <Products />
+    <Round />
+    <Rectangular />
     <Contact />
   </Layout>
 );

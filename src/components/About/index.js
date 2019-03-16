@@ -19,7 +19,7 @@ const About = () => (
         <p>Call us today to make your dream of owning a pool a reality!</p>
       </div>
     </div>
-    <div className="flex w-full md:w-1/2">
+    <div className="flex h-64 md:h-auto w-full md:w-1/2">
       <div className="bg-blue-vivid-700 h-full w-full relative">
         <div className="image-container opacity-75">
           <Image />
