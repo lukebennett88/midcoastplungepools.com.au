@@ -24,7 +24,7 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-let defaultConfig = require('tailwindcss/defaultConfig')();
+const defaultConfig = require('tailwindcss/defaultConfig')();
 
 /*
 |-------------------------------------------------------------------------------
@@ -42,9 +42,8 @@ let defaultConfig = require('tailwindcss/defaultConfig')();
 |
 */
 
-let colors = {
+const colors = {
   transparent: 'transparent',
-  'transparent-white': 'hsla(360, 100%, 100%, 0.75)',
 
   black: '#22292f',
   'grey-darkest': '#3d4852',
@@ -55,6 +54,18 @@ let colors = {
   'grey-lighter': '#f1f5f8',
   'grey-lightest': '#f8fafc',
   white: '#ffffff',
+
+  // blue grey
+  'blue-grey-050': '#F0F4F8',
+  'blue-grey-100': '#D9E2EC',
+  'blue-grey-200': '#BCCCDC',
+  'blue-grey-300': '#9FB3C8',
+  'blue-grey-400': '#829AB1',
+  'blue-grey-500': '#627D98',
+  'blue-grey-600': '#486581',
+  'blue-grey-700': '#334E68',
+  'blue-grey-800': '#243B53',
+  'blue-grey-900': '#102A43',
 
   // red
   'red-050': '#FFEEEE',
@@ -67,17 +78,6 @@ let colors = {
   'red-700': '#911111',
   'red-800': '#780A0A',
   'red-900': '#610404',
-
-  'green-050': '#E3F9E5',
-  'green-100': '#C1EAC5',
-  'green-200': '#A3D9A5',
-  'green-300': '#7BC47F',
-  'green-400': '#57AE5B',
-  'green-500': '#3F9142',
-  'green-600': '#2F8132',
-  'green-700': '#207227',
-  'green-800': '#0E5814',
-  'green-900': '#05400A',
 
   // cyan
   'cyan-050': '#E0FCFF',
@@ -92,52 +92,7 @@ let colors = {
   'cyan-900': '#044E54',
 
   // cyan vivid
-  'cyan-vivid-050': '#E1FCF8',
-  'cyan-vivid-100': '#C1FEF6',
-  'cyan-vivid-200': '#92FDF2',
-  'cyan-vivid-300': '#62F4EB',
-  'cyan-vivid-400': '#3AE7E1',
-  'cyan-vivid-500': '#1CD4D4',
-  'cyan-vivid-600': '#0FB5BA',
-  'cyan-vivid-700': '#099AA4',
-  'cyan-vivid-800': '#07818F',
-  'cyan-vivid-900': '#05606E',
-
-  // light blue
-  'light-blue-050': '#EBF8FF',
-  'light-blue-100': '#D1EEFC',
-  'light-blue-200': '#A7D8F0',
-  'light-blue-300': '#7CC1E4',
-  'light-blue-400': '#55AAD4',
-  'light-blue-500': '#3994C1',
-  'light-blue-600': '#2D83AE',
-  'light-blue-700': '#1D6F98',
-  'light-blue-800': '#166086',
-  'light-blue-900': '#0B4F71',
-
-  // light blue vivid
-  'light-blue-vivid-050': '#E3F8FF',
-  'light-blue-vivid-100': '#B3ECFF',
-  'light-blue-vivid-200': '#81DEFD',
-  'light-blue-vivid-300': '#5ED0FA',
-  'light-blue-vivid-400': '#40C3F7',
-  'light-blue-vivid-500': '#2BB0ED',
-  'light-blue-vivid-600': '#1992D4',
-  'light-blue-vivid-700': '#127FBF',
-  'light-blue-vivid-800': '#0B69A3',
-  'light-blue-vivid-900': '#035388',
-
-  // blue
-  'blue-050': '#DCEEFB',
-  'blue-100': '#B6E0FE',
-  'blue-200': '#84C5F4',
-  'blue-300': '#62B0E8',
-  'blue-400': '#4098D7',
-  'blue-500': '#2680C2',
-  'blue-600': '#186FAF',
-  'blue-700': '#0F609B',
-  'blue-800': '#0A558C',
-  'blue-900': '#003E6B',
+  'cyan-vivid-700': '#3273A1',
 
   // blue vivid
   'blue-vivid-050': '#E6F6FF',
@@ -150,18 +105,6 @@ let colors = {
   'blue-vivid-700': '#03449E',
   'blue-vivid-800': '#01337D',
   'blue-vivid-900': '#002159',
-
-  // blue grey
-  'blue-grey-050': '#F0F4F8',
-  'blue-grey-100': '#D9E2EC',
-  'blue-grey-200': '#BCCCDC',
-  'blue-grey-300': '#9FB3C8',
-  'blue-grey-400': '#829AB1',
-  'blue-grey-500': '#627D98',
-  'blue-grey-600': '#486581',
-  'blue-grey-700': '#334E68',
-  'blue-grey-800': '#243B53',
-  'blue-grey-900': '#102A43',
 };
 
 module.exports = {
@@ -178,7 +121,7 @@ module.exports = {
   |
   */
 
-  colors: colors,
+  colors,
 
   /*
   |-----------------------------------------------------------------------------
