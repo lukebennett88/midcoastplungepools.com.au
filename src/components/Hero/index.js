@@ -35,7 +35,7 @@ const Hero = () => (
             Transform&nbsp;your backyard&nbsp;today!
           </h1>
           <Link
-            className="hover:bg-blue-vivid-600 block md:inline-flex border-b md:border-0 font-semibold no-underline p-4 tracking-wide text-sm hover:text-white uppercase button mb-2 md:mb-0 mr-4 xxl:mr-0 mt-2 md:mt-0"
+            className="hover:bg-blue-vivid-600 block md:inline-flex border-b md:border-0 font-semibold no-underline p-4 tracking-wide text-sm hover:text-white uppercase button"
             to="/#contact"
           >
             Free quote
