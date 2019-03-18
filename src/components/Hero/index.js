@@ -34,10 +34,7 @@ const Hero = () => (
           <h1 className="normal-case text-3xl md:text-5xl text-white">
             Transform&nbsp;your backyard&nbsp;today!
           </h1>
-          <Link
-            className="hover:bg-blue-vivid-600 block md:inline-flex border-b md:border-0 font-semibold no-underline p-4 tracking-wide text-sm hover:text-white uppercase button"
-            to="/#contact"
-          >
+          <Link className="button" to="/#contact">
             Free quote
           </Link>
         </div>
