@@ -2,7 +2,10 @@ import React from 'react';
 import Image from './Image';
 
 const WhyUs = () => (
-  <div className="flex flex-wrap-reverse max-w-4xl mx-auto w-full" id="why-us">
+  <div
+    className="flex flex-wrap-reverse max-w-4xl mx-auto w-full"
+    id="reasons-why"
+  >
     <div className="flex h-64 md:h-auto w-full md:w-1/2">
       <div className="bg-blue-vivid-700 h-full w-full relative">
         <div className="image-container opacity-75">
