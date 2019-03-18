@@ -23,10 +23,10 @@ const Hero = () => (
         <div className="image-container opacity-50">
           <Image />
         </div>
-        <div className="max-w-sm mx-auto px-4 py-16 relative rounded text-center w-full">
+        <div className="max-w-sm mx-auto pb-32 pt-16 px-4 relative rounded text-center w-full">
           <Link to="/">
             <img
-              className="w-full"
+              className="h-32 md:h-48 w-auto"
               src={Logo}
               alt={data.site.siteMetadata.title}
             />
@@ -34,6 +34,12 @@ const Hero = () => (
           <h1 className="normal-case text-3xl md:text-5xl text-white">
             Transform&nbsp;your backyard&nbsp;today!
           </h1>
+          <Link
+            className="hover:bg-blue-vivid-600 block md:inline-flex border-b md:border-0 font-semibold no-underline p-4 tracking-wide text-sm hover:text-white uppercase button mb-2 md:mb-0 mr-4 xxl:mr-0 mt-2 md:mt-0"
+            to="/#contact"
+          >
+            Free quote
+          </Link>
         </div>
         <div className="contact absolute max-w-4xl pin-b pin-l pin-r px-4 w-full z-10">
           <div className="flex flex-wrap items-center justify-around p-4">
