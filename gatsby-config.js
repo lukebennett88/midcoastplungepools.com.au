@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Mid Coast Plunge Pools`,
-    description: ``,
+    description: `Servicing Port Macquarie and the Mid North Coast, Mid Coast Plunge Pools help you make your dream of owning a pool a reality! Call today for a free quote.`,
     siteUrl: `https://www.midcoastplungepools.com.au`,
     author: `Justin Robinson`,
     phone: `0402148861`,
