@@ -33,6 +33,7 @@ const Contact = () => (
             <div className="max-w-sm mx-auto">
               <h2>Contact</h2>
               {/* Contact Info */}
+              <p>Contact us today for your free quote!</p>
               <div className="mb-8">
                 <h3>Contact information</h3>
                 {/* Phone */}
