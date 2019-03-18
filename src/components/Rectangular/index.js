@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from './Image';
 
-const Products = () => (
-  <div className="flex flex-wrap max-w-4xl mx-auto w-full" id="products">
+const Rectangular = () => (
+  <div className="flex flex-wrap max-w-4xl mx-auto w-full" id="rectangular">
     <div className="header-spacer px-4 w-full md:w-1/2">
       <div className="max-w-sm mx-auto">
         <h2>Rectangular Pools</h2>
@@ -46,4 +46,4 @@ const Products = () => (
   </div>
 );
 
-export default Products;
+export default Rectangular;

@@ -1,11 +1,8 @@
 import React from 'react';
 import Image from './Image';
 
-const Products = () => (
-  <div
-    className="flex flex-wrap-reverse max-w-4xl mx-auto w-full"
-    id="products"
-  >
+const Round = () => (
+  <div className="flex flex-wrap-reverse max-w-4xl mx-auto w-full" id="round">
     <div className="flex h-64 md:h-auto w-full md:w-1/2">
       <div className="bg-blue-vivid-700 h-full w-full relative">
         <div className="image-container opacity-75">
@@ -57,4 +54,4 @@ const Products = () => (
   </div>
 );
 
-export default Products;
+export default Round;
