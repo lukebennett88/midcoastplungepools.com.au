@@ -9,12 +9,12 @@ module.exports = {
     email: `info@midcoastplungepools.com.au`,
   },
   plugins: [
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: ``,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-136420620-1`,
+      },
+    },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
