@@ -7,13 +7,14 @@ const About = () => (
       <div className="max-w-sm mx-auto">
         <h2>About</h2>
         <p>
-          Mid Coast Plunge Pools is a professional and innovative young company
+          Mid Coast Plunge Pools is a professional and innovative company
           dedicated to helping you transform your backyard into a stylish and
           enjoyable space.
         </p>
 
         <p>
-          We service the entire Mid North Coast, from Newcastle to the Ballina.
+          Based in Port Macquarie, we service the Mid North Coast, from Forster
+          to the Coffs Harbour.
         </p>
 
         <p>Call us today to make your dream of owning a pool a reality!</p>
