@@ -22,7 +22,7 @@ a {
 }
 
 .hero {
-  min-height: 66.6666vh;
+  min-height: calc(80vh - 6rem);
   background: linear-gradient(
     180deg,
     rgba(9, 11, 149, 1) 0%,
@@ -51,8 +51,8 @@ a {
   @apply border-2;
   @apply border-blue-vivid-700;
   @apply font-bold;
-  @apply items-center;
   @apply inline-flex;
+  @apply items-center;
   @apply justify-center;
   @apply leading-none;
   @apply px-4;
@@ -61,6 +61,7 @@ a {
   @apply rounded-l-full;
   @apply rounded-r-full;
   @apply text-blue-vivid-700;
+  @apply text-sm;
   @apply uppercase;
   @apply whitespace-no-wrap;
 }
@@ -68,6 +69,15 @@ a {
 .button:hover {
   @apply text-white;
   @apply bg-blue-vivid-700;
+}
+
+.button.danger {
+  @apply text-red-500;
+  @apply border-transparent;
+}
+
+.button.danger:hover {
+  @apply bg-red-050;
 }
 
 .primary {
