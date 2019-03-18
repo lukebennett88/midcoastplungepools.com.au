@@ -3,7 +3,7 @@ import React from 'react';
 const ScrollToTop = () => (
   <a
     href="#top"
-    className="bg-white border-2 border-blue-vivid-600 flex md:hidden fixed h-10 items-end justify-center leading-none mb-16 mr-4 no-underline pin-b pin-r rounded-full w-10"
+    className="bg-white border-2 border-blue-vivid-600 flex md:hidden fixed h-10 items-end justify-center leading-none mb-16 mr-4 no-underline pin-b pin-r rounded-full w-10 z-10"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
