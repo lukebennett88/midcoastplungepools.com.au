@@ -56,7 +56,9 @@ export default class ContactForm extends React.Component {
         {/* Name */}
         <div className="mb-6">
           <label className="flex flex-col" htmlFor="name">
-            <span className="font-bold mb-2 text-sm">Name:</span>
+            <span className="font-bold mb-2 text-cyan-vivid-700 text-xs uppercase tracking-wide">
+              Name:
+            </span>
             <input
               className="appearance-none bg-white border-2 hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
               id="name"
@@ -71,7 +73,9 @@ export default class ContactForm extends React.Component {
         {/* Email address */}
         <div className="mb-6">
           <label className="flex flex-col" htmlFor="email">
-            <span className="font-bold mb-2 text-sm">Email address:</span>
+            <span className="font-bold mb-2 text-cyan-vivid-700 text-xs uppercase tracking-wide">
+              Email address:
+            </span>
             <input
               className="appearance-none bg-white border-2 hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
               id="email"
@@ -86,7 +90,9 @@ export default class ContactForm extends React.Component {
         {/* Phone number */}
         <div className="mb-6">
           <label className="flex flex-col" htmlFor="phone">
-            <span className="font-bold mb-2 text-sm">Phone number:</span>
+            <span className="font-bold mb-2 text-cyan-vivid-700 text-xs uppercase tracking-wide">
+              Phone number:
+            </span>
             <input
               className="appearance-none bg-white border-2 hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
               id="phone"
@@ -100,7 +106,9 @@ export default class ContactForm extends React.Component {
         {/* Message */}
         <div className="mb-6">
           <label className="flex flex-col" htmlFor="message">
-            <span className="font-bold mb-2 text-sm">Message:</span>
+            <span className="font-bold mb-2 text-cyan-vivid-700 text-xs uppercase tracking-wide">
+              Message:
+            </span>
             <textarea
               className="appearance-none bg-white border-2 hover:border-blue-vivid-600 leading-tight px-3 py-2 rounded-none text-grey-darker w-full focus:outline-none focus:shadow-outline"
               id="message"
@@ -112,20 +120,17 @@ export default class ContactForm extends React.Component {
           </label>
         </div>
 
-        <div className="flex items-center justify-end mb-6">
+        <div className="flex items-center justify-between mb-6">
           {/* Clear */}
           <input
-            className="bg-red-050 appearance-none font-bold leading-tight mr-3 px-3 py-2 rounded-none text-red-600"
+            className="button danger cursor-pointer mr-2"
             onChange={this.handleChange}
             type="reset"
             value="Clear form"
           />
 
           {/* Submit */}
-          <button
-            className="bg-cyan-050 appearance-none font-bold leading-tight px-3 py-2 rounded-none text-cyan-700"
-            type="submit"
-          >
+          <button className="button" type="submit">
             Send
           </button>
         </div>
