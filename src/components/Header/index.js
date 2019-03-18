@@ -10,7 +10,7 @@ const handleClick = ev => {
 };
 
 const Header = ({ siteTitle }) => (
-  <header className="bg-white max-w-4xl mx-auto pin-t px-4 md:sticky w-full z-20">
+  <header className="header bg-white max-w-4xl mx-auto pin-t px-4 md:sticky w-full z-20">
     <div className="md:flex">
       <div className="flex items-center border-b md:border-b-0">
         <div className="flex items-center justify-between w-full">
@@ -46,9 +46,9 @@ const Header = ({ siteTitle }) => (
         className="border-b md:border-none hidden md:flex md:flex-1 items-center md:justify-end w-full md:w-auto"
       >
         <NavLink link="/#about" title="About" />
-        <NavLink link="/#why-us" title="Why&nbsp;Us" />
+        <NavLink link="/#reasons-why" title="Reasons&nbsp;Why" />
         <NavLink link="/#products" title="Products" />
-        <NavLink link="/#contact" title="Contact" button />
+        <NavLink link="/#contact" title="Free Quote" button />
       </nav>
     </div>
   </header>
