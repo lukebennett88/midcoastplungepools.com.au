@@ -19,7 +19,7 @@ const Rectangular = () => (
             </thead>
             <tbody>
               <tr>
-                <td>1,300L</td>
+                <td>13,000L</td>
                 <td>1,600mm</td>
                 <td>2,480mm</td>
                 <td>4,800mm</td>
