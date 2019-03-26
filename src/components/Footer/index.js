@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
+import { graphql, Link, StaticQuery } from 'gatsby';
 import ScrollToTop from '../ScrollToTop';
 
 import Logo from '../../images/logo-white.svg';
@@ -36,10 +36,31 @@ const Footer = () => (
                 <ul className="list-reset">
                   <FooterLink title="Home" link="/" />
                   <FooterLink title="About" link="/#about" />
-                  <FooterLink title="Why Us" link="/#why-us" />
+                  <FooterLink title="Reasons Why" link="/#reasons-why" />
                   <FooterLink title="Products" link="/#products" />
                   <FooterLink title="Contact" link="/#contact" />
-                  <FooterLink title="Sitemap" link="/sitemap.xml" />
+                  <li className="mb-2">
+                    <a
+                      className="flex items-center text-white"
+                      href="/sitemap.xml"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        className="w-6 mr-4"
+                      >
+                        <path
+                          className="secondary"
+                          d="M19.48 13.03l-.02-.03a1 1 0 1 1 1.75-.98A6 6 0 0 1 16 21h-4a6 6 0 1 1 0-12h1a1 1 0 0 1 0 2h-1a4 4 0 1 0 0 8h4a4 4 0 0 0 3.48-5.97z"
+                        />
+                        <path
+                          className="primary"
+                          d="M4.52 10.97l.02.03a1 1 0 1 1-1.75.98A6 6 0 0 1 8 3h4a6 6 0 1 1 0 12h-1a1 1 0 0 1 0-2h1a4 4 0 1 0 0-8H8a4 4 0 0 0-3.48 5.97z"
+                        />
+                      </svg>
+                      <span>Sitemap</span>
+                    </a>
+                  </li>
                 </ul>
               </div>
               {/* Contact */}
@@ -104,9 +125,9 @@ const Footer = () => (
                       d="M15 4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V6c0-1.1.9-2 2-2 0-1.1.9-2 2-2h2a2 2 0 0 1 2 2z"
                     />
                   </svg>
-                  <a className="text-white" href="/contact/">
+                  <Link className="text-white" to="/#contact">
                     Contact form
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -140,7 +161,7 @@ const Footer = () => (
 
 const FooterLink = props => (
   <li className="mb-2">
-    <a className="flex items-center text-white" href={props.link}>
+    <Link className="flex items-center text-white" to={props.link}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -156,7 +177,7 @@ const FooterLink = props => (
         />
       </svg>
       <span>{props.title}</span>
-    </a>
+    </Link>
   </li>
 );
 
