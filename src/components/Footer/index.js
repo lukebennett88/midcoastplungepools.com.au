@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql, Link, StaticQuery } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 import ScrollToTop from '../ScrollToTop';
 
 import Logo from '../../images/logo-white.svg';
@@ -104,9 +104,9 @@ const Footer = () => (
                       d="M15 4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V6c0-1.1.9-2 2-2 0-1.1.9-2 2-2h2a2 2 0 0 1 2 2z"
                     />
                   </svg>
-                  <Link className="text-white" to="/contact/">
+                  <a className="text-white" href="/contact/">
                     Contact form
-                  </Link>
+                  </a>
                 </p>
               </div>
             </div>
@@ -140,7 +140,7 @@ const Footer = () => (
 
 const FooterLink = props => (
   <li className="mb-2">
-    <Link className="flex items-center text-white" to={props.link}>
+    <a className="flex items-center text-white" href={props.link}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -156,7 +156,7 @@ const FooterLink = props => (
         />
       </svg>
       <span>{props.title}</span>
-    </Link>
+    </a>
   </li>
 );
 
