@@ -16,6 +16,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: `568329387004089`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://www.midcoastplungepools.com.au`,
