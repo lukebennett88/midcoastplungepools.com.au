@@ -33,7 +33,7 @@ const Round = () => (
                 <td>5,200kg</td>
               </tr>
               <tr>
-                <td>12,200L</td>
+                <td>10,200L</td>
                 <td>1,430mm</td>
                 <td>3,480mm</td>
                 <td>650mm</td>
