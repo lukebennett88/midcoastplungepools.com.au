@@ -1,7 +1,8 @@
 import React from 'react';
 import { graphql, Link, StaticQuery } from 'gatsby';
-import ScrollToTop from '../ScrollToTop';
+import PropTypes from 'prop-types';
 
+import ScrollToTop from '../ScrollToTop';
 import Logo from '../../images/logo-white.svg';
 
 const Footer = () => (
@@ -215,9 +216,9 @@ const Footer = () => (
   />
 );
 
-const FooterLink = props => (
+const FooterLink = ({ link, title }) => (
   <li className="mb-2">
-    <Link className="flex items-center text-white" to={props.link}>
+    <Link className="flex items-center text-white" to={link}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -232,9 +233,14 @@ const FooterLink = props => (
           d="M4.52 10.97l.02.03a1 1 0 1 1-1.75.98A6 6 0 0 1 8 3h4a6 6 0 1 1 0 12h-1a1 1 0 0 1 0-2h1a4 4 0 1 0 0-8H8a4 4 0 0 0-3.48 5.97z"
         />
       </svg>
-      <span>{props.title}</span>
+      <span>{title}</span>
     </Link>
   </li>
 );
+
+FooterLink.propTypes = {
+  link: PropTypes.string,
+  title: PropTypes.string,
+};
 
 export default Footer;

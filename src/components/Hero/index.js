@@ -41,7 +41,7 @@ const Hero = () => (
         <div className="contact absolute max-w-4xl pin-b pin-l pin-r px-4 w-full z-10">
           <div className="flex flex-wrap items-center justify-around p-4">
             {/* Phone */}
-            <p className="flex items-center mb-2 md:m-0 w-full md:w-auto">
+            <div className="flex items-center mb-2 md:m-0 w-full md:w-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -62,10 +62,10 @@ const Hero = () => (
               >
                 {data.site.siteMetadata.phone_formatted}
               </a>
-            </p>
+            </div>
 
             {/* Email */}
-            <p className="flex items-center mb-2 md:m-0 w-full md:w-auto">
+            <div className="flex items-center mb-2 md:m-0 w-full md:w-auto">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -82,11 +82,11 @@ const Hero = () => (
               >
                 {data.site.siteMetadata.email}
               </a>
-            </p>
+            </div>
 
             {/* Contact form */}
-            <p className="flex items-center mb-2 md:m-0 w-full md:w-auto">
-              <p className="flex items-center mb-2">
+            <div className="flex items-center mb-2 md:m-0 w-full md:w-auto">
+              <div className="flex items-center mb-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -104,8 +104,8 @@ const Hero = () => (
                 <a className="text-white" href="/contact/">
                   Contact us
                 </a>
-              </p>
-            </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

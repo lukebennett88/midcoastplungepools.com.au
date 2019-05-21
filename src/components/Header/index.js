@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+
 import Logo from '../../images/logo.svg';
 
-const handleClick = ev => {
-  ev.preventDefault();
+const handleClick = e => {
+  e.preventDefault();
   const element = document.getElementById('nav');
   element.classList.toggle('block');
   element.classList.toggle('hidden');
@@ -54,15 +56,25 @@ const Header = ({ siteTitle }) => (
   </header>
 );
 
-const NavLink = props => (
+Header.propTypes = {
+  siteTitle: PropTypes.string,
+};
+
+const NavLink = ({ link, button, title }) => (
   <Link
-    to={props.link}
+    to={link}
     className={`hover:bg-blue-vivid-600 block md:inline-flex border-b md:border-0 font-semibold no-underline p-4 tracking-wide text-sm hover:text-white uppercase ${
-      props.button ? 'button mb-2 md:mb-0 ml-3 md:ml-2 mr-4 mt-2 md:mt-0' : ''
+      button ? 'button mb-2 md:mb-0 ml-3 md:ml-2 mr-4 mt-2 md:mt-0' : ''
     }`}
   >
-    {props.title}
+    {title}
   </Link>
 );
+
+NavLink.propTypes = {
+  link: PropTypes.string,
+  button: PropTypes.bool,
+  title: PropTypes.string,
+};
 
 export default Header;

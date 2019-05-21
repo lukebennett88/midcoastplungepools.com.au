@@ -24,7 +24,7 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-const defaultConfig = require('tailwindcss/defaultConfig')();
+// const defaultConfig = require('tailwindcss/defaultConfig')();
 
 /*
 |-------------------------------------------------------------------------------
@@ -919,12 +919,12 @@ module.exports = {
   |
   */
 
-  plugins: [
-    require('tailwindcss/plugins/container')({
-      // center: true,
-      // padding: '1rem',
-    }),
-  ],
+  // plugins: [
+  //   require('tailwindcss/plugins/container')({
+  //     // center: true,
+  //     // padding: '1rem',
+  //   }),
+  // ],
 
   /*
   |-----------------------------------------------------------------------------
