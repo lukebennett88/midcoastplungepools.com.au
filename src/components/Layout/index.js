@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
-import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 import { graphql, StaticQuery } from 'gatsby';
+import PropTypes from 'prop-types';
 
 import Header from '../Header';
 import Footer from '../Footer';
@@ -22,6 +24,17 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div className="flex flex-col font-sans min-h-screen relative text-grey-darkest">
+        <Helmet>
+          <script src="/google-tag-manager.js" />
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-NXJF3KS"
+              height="0"
+              width="0"
+              style={{ display: `none`, visibility: `hidden` }}
+            />
+          </noscript>
+        </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         {children}
         <Footer />
