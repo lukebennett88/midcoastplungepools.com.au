@@ -19,14 +19,19 @@ const Image = () => (
       query {
         placeholderImage: file(relativePath: { eq: "hero.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 5000) {
+            fluid(maxWidth: 3000, quality: 100) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => (
+      <Img
+        fluid={data.placeholderImage.childImageSharp.fluid}
+        loading="eager"
+      />
+    )}
   />
 );
 export default Image;
