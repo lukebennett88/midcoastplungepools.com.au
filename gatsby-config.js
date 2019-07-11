@@ -48,6 +48,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
@@ -66,5 +67,6 @@ module.exports = {
         purgeOnly: [`src/css/tailwind.css`], // Purge only tailwind
       },
     },
+    `gatsby-plugin-netlify`,
   ],
 };
